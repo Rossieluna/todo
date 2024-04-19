@@ -1,7 +1,7 @@
 // Function to fetch and display tasks
 function displayTasks() {
   // Fetch tasks from the backend API
-  fetch('http://localhost:3000/tasks')
+  fetch('http://localhost:10000/tasks')
       .then(response => response.json())
       .then(tasks => {
           // Clear the task list
